@@ -3,7 +3,8 @@ main:
   - title: "Docs"
     url: /documentation/
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    #url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /about/ 
   - title: "Blog"
     url: /blog/
   # - title: "Sample Collections"
