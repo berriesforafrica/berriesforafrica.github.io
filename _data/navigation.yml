@@ -1,0 +1,74 @@
+# main links
+main:
+  - title: "Docs"
+    url: /documentation/
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Blog"
+    url: /blog/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+docs:
+  - title: Project
+    children:
+      - title: "Mission"
+        url: /docus/mission/
+      - title: "Why Raspberry Pis?"
+        url: /docus/why/
+      - title: "Personal Computing Redefined"
+        url: /docus/redefined/
+      - title: "Contact Persons"
+        url: /docus/contacts/
+  - title: Hardware
+    children:
+      - title: Cases
+        url: /docus/cases/
+      - title: "Cooling"
+        url: /docus/cooling/
+      - title: "Power Supplies"
+        url: /docus/power/
+      - title: "Keyboard & Mouse"
+        url: /docus/kbmouse/
+      - title: "Storage"
+        url: /docus/storage/
+      - title: "Sound"
+        url: /docus/sound/
+      - title: "Display Connections"
+        url: /docus/display/
+  - title: "Operating Systems"
+    children:
+      - title: "Raspberry Pi OS"
+        url: /docus/rpios/
+      - title: "Manjaro"
+        url: /docus/manjaro/
+      - title: "Twister"
+        url: /docus/twister/
+      - title: "Android"
+        url: /docus/android/
+      - title: "Windows 10"
+        url: /docus/windows10/
+  - title: Apps
+    children:
+      - title: Office
+        url: /docus/office/
+      - title: "Education"
+        url: /docus/education/
+      - title: "Graphics"
+        url: /docus/graphics/
+      - title: "Multimedia"
+        url: /docus/mulitmedia/
+      - title: "Settings"
+        url: /docus/settings/
+      - title: "System"
+        url: /docus/system/
+      - title: "Utilities"
+        url: /docus/utilities/
+  - title: "Master Disks"
+    children:
+      - title: "Manjaro KDE B"
+        url: /docus/manjaro-KDE-B/
+      - title: "Raspberry Pi OS B"
+        url: /docus/rpi-os-B/
+    
