@@ -1,7 +1,11 @@
 ---
 title:  "Welcome to Jekyll!"
-date:   2020-09-12 08:49:16 +0200
-categories: jekyll update
+date:   2020-08-12 08:49:16 +0200
+# categories: jekyll update
+tags: cases
+sidebar:
+  nav: "docs"
+author_profile: false
 ---
 
 Welcome Koen!

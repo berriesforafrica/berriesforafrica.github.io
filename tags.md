@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: tags
 sidebar:
   nav: "docs"
----
+--- 

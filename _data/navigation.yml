@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Docs"
-    url: /documentation/
   - title: "About"
     #url: https://mmistakes.github.io/minimal-mistakes/about/
     url: /about/ 
+  - title: "Docs"
+    url: /wiki/cases/
   - title: "Blog"
     url: /blog/
   # - title: "Sample Collections"
@@ -12,64 +12,58 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 docs:
-  - title: Project
-    children:
-      - title: "Mission"
-        url: /docus/mission/
-      - title: "Why Raspberry Pis?"
-        url: /docus/why/
-      - title: "Personal Computing Redefined"
-        url: /docus/redefined/
-      - title: "Contact Persons"
-        url: /docus/contacts/
   - title: Hardware
+    url: /wiki/hardware/
     children:
       - title: Cases
-        url: /docus/cases/
+        url: /wiki/cases/
       - title: "Cooling"
-        url: /docus/cooling/
+        url: /wiki/cooling/
       - title: "Power Supplies"
-        url: /docus/power/
+        url: /wiki/power/
       - title: "Keyboard & Mouse"
-        url: /docus/kbmouse/
+        url: /wiki/kbmouse/
       - title: "Storage"
-        url: /docus/storage/
+        url: /wiki/storage/
       - title: "Sound"
-        url: /docus/sound/
+        url: /wiki/sound/
       - title: "Display Connections"
-        url: /docus/display/
+        url: /wiki/display/
   - title: "Operating Systems"
+    url: /wiki/os/
     children:
       - title: "Raspberry Pi OS"
-        url: /docus/rpios/
+        url: /wiki/rpios/
       - title: "Manjaro"
-        url: /docus/manjaro/
+        url: /wiki/manjaro/
       - title: "Twister"
-        url: /docus/twister/
+        url: /wiki/twister/
       - title: "Android"
-        url: /docus/android/
+        url: /wiki/android/
       - title: "Windows 10"
-        url: /docus/windows10/
+        url: /wiki/windows10/
   - title: Apps
+    url: /wiki/apps/  
     children:
       - title: Office
-        url: /docus/office/
+        url: /wiki/office/
       - title: "Education"
-        url: /docus/education/
+        url: /wiki/education/
       - title: "Graphics"
-        url: /docus/graphics/
+        url: /wiki/graphics/
       - title: "Multimedia"
-        url: /docus/mulitmedia/
+        url: /wiki/mulitmedia/
       - title: "Settings"
-        url: /docus/settings/
+        url: /wiki/settings/
       - title: "System"
-        url: /docus/system/
+        url: /wiki/system/
       - title: "Utilities"
-        url: /docus/utilities/
+        url: /wiki/utilities/
   - title: "Master Disks"
+    url: /wiki/masterdisks/
     children:
       - title: "Manjaro KDE B"
-        url: /docus/manjaro-KDE-B/
+        url: /wiki/manjaro-KDE-B/
       - title: "Raspberry Pi OS B"
-        url: /docus/rpi-os-B/
+        url: /wiki/rpi-os-B/
     

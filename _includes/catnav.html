@@ -1,0 +1,33 @@
+<!-- KSW: Modified from nav_list -->
+
+{% assign navigation = site.data.navigation['main'] %}
+
+<nav class="nav__list">
+  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+  <ul class="nav__items">
+    {% assign posts_by_topic = site.posts | group_by:"topic" %}
+    {% for topic in posts_by_topic %}
+    <!-- {% for nav in navigation %} -->
+      <li>
+        {% if topic.url %}
+          <a href="{{ topic.url | relative_url }}"><span class="nav__sub-title">{{ topic.title }}</span></a>
+        {% else %}
+          <span class="nav__sub-title">{{ topic.title }}</span>
+        {% endif %}
+
+        <!-- {% if nav.children != null %} -->
+        {% if nav.items != null %}
+        <ul>
+          {% assign posts_by_month = year.items | group_by:"month" %}
+
+          {% for child in nav.children %}
+            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

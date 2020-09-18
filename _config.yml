@@ -22,6 +22,53 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Collections
+#collections_dir: docs
+collections:
+  cases:
+    label: Such Nice Cases
+    output: true
+  cooling:
+    output: true
+  power:
+    output: true
+  kbmouse:
+    output: true
+  storage:
+    output: true
+  sound:
+    output: true
+  display:
+    output: true
+  rpios:
+    output: true
+  manjaro:
+    output: true
+  twister:
+    output: true
+  android:
+    output: true
+  windows10:
+    output: true
+  office:
+    output: true
+  education:
+    output: true
+  graphics:
+    output: true
+  multimedia:
+    output: true
+  settings:
+    output: true
+  system:
+    output: true
+  utilities:
+    output: true
+  manjaro-KDE-B:
+    output: true
+  rpi-os-B:
+    output: true
+
 # Theme
 minimal_mistakes_skin    : "default" 
 #minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -30,7 +77,7 @@ minimal_mistakes_skin    : "default"
 locale                   : "en-GB"
 title                    : "Berries for Africa"
 title_separator          : "-"
-subtitle                 : "Promoting the use of Raspberry Pi in Developing Countries"
+subtitle                 : # "Promoting the use of Raspberry Pi in Developing Countries"
 name                     : "Koen Swings"
 # description will appear in your document head meta (for Google search results) 
 # and in your feed.xml site description.
@@ -110,11 +157,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : "/assets/images/NewMe.jpg"
-  bio              : "Technology for all"
-  location         : "Somewhere"
-  email            : "koen@swings.be"
+  name             : "Koen Swings"
+  avatar           : "/assets/koenswings.jpg"
+  bio              : 
+  location         : "Bornem, Belgium"
+  email            : "berriesforafrica@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -224,8 +271,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate: 10 # amount of posts to show
+paginate_path: /blog/page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -296,7 +343,273 @@ defaults:
       comments: # true
       share: true
       related: true
-
+  # collections
+  - scope:
+      path: ""
+      type: cases
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: cooling
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: power
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: kbmouse
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: storage
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: sound
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: display
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: rpios
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: manjaro
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: twister
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: android
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: windows10
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: office
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: graphics
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: multimedia
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: settings
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: system
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: utilities
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: manjaro-KDE-B
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+      type: rpi-os-B
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
+  # wiki pages
+  - scope:
+      path: "wiki"
+      type: pages
+    values:
+      layout: collection
+      entries_layout: list # list (default), grid
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      sidebar:
+        nav: "docs"
 
 
 
