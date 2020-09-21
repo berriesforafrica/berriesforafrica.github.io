@@ -4,5 +4,6 @@ sidebar:
   nav: "docs"
 --- 
 
-bla bla bla
+Mission statement.
+
 

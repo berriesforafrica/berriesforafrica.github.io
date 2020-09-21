@@ -3,8 +3,8 @@ main:
   - title: "About"
     #url: https://mmistakes.github.io/minimal-mistakes/about/
     url: /about/ 
-  - title: "Docs"
-    url: /wiki/cases/
+  - title: "Wiki"
+    url: /wiki/systems/
   - title: "Blog"
     url: /blog/
   # - title: "Sample Collections"
@@ -12,30 +12,19 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 docs:
-  - title: Hardware
-    url: /wiki/hardware/
-    children:
-      - title: Cases
-        url: /wiki/cases/
-      - title: "Cooling"
-        url: /wiki/cooling/
-      - title: "Power Supplies"
-        url: /wiki/power/
-      - title: "Keyboard & Mouse"
-        url: /wiki/kbmouse/
-      - title: "Storage"
-        url: /wiki/storage/
-      - title: "Sound"
-        url: /wiki/sound/
-      - title: "Display Connections"
-        url: /wiki/display/
+  - title: Systems
+    url: /wiki/systems/
+  - title: Master Disks
+    url: /wiki/masterdisks/  
   - title: "Operating Systems"
-    url: /wiki/os/
+    #url: /wiki/os/
     children:
+      - title: "General Info"
+        url: /wiki/osgeneral/ 
+      - title: "Manjaro KDE"
+        url: /wiki/manjaro-kde/
       - title: "Raspberry Pi OS"
         url: /wiki/rpios/
-      - title: "Manjaro"
-        url: /wiki/manjaro/
       - title: "Twister"
         url: /wiki/twister/
       - title: "Android"
@@ -43,7 +32,7 @@ docs:
       - title: "Windows 10"
         url: /wiki/windows10/
   - title: Apps
-    url: /wiki/apps/  
+    #url: /wiki/apps/  
     children:
       - title: Office
         url: /wiki/office/
@@ -52,18 +41,26 @@ docs:
       - title: "Graphics"
         url: /wiki/graphics/
       - title: "Multimedia"
-        url: /wiki/mulitmedia/
+        url: /wiki/multimedia/
       - title: "Settings"
         url: /wiki/settings/
       - title: "System"
         url: /wiki/system/
       - title: "Utilities"
         url: /wiki/utilities/
-  - title: "Master Disks"
-    url: /wiki/masterdisks/
+  - title: Hardware
+    #url: /wiki/hardware/
     children:
-      - title: "Manjaro KDE B"
-        url: /wiki/manjaro-KDE-B/
-      - title: "Raspberry Pi OS B"
-        url: /wiki/rpi-os-B/
+      - title: Cases
+        url: /wiki/cases/
+      - title: "Power Supplies"
+        url: /wiki/power/
+      - title: "Storage"
+        url: /wiki/storage/
+      - title: "Audio"
+        url: /wiki/audio/
+      - title: "Display"
+        url: /wiki/display/
+  - title: Contributing Knowledge
+    url: /wiki/contributing/
     
