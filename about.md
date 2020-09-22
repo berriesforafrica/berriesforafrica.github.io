@@ -36,9 +36,29 @@ There are many advantages of using Raspberry Pi's as desktop computers in develo
 
 ...
 
-### Redefining Personal Computing
+### Key factors to consider for a performant setup
 
-A second objective of this project is to ...
+- explain the need for USB boot from SSD
+- supported by current low costs for storage
+
+
+### Separating Storage from Computing (ALT: Storage-centric Computing)
+
+Taking profit of a setup using SSD drives that are connected externally to the main computer board, we also want to take another step forward in making the Raspberry Pi an efficient platform for developing countries and educational institutions. And that is to consider the storage as not being an integrated part of the computer, but to consider is as a separate component at the system level.
+
+This allows us to define a computer system not as the integration of a compute component (the CPU) with one fixed storage component, but as a dynamic combination of a compute component with several interchangeable storage components.
+
+The possibilities of this approach are mind-blowing. 
+
+Instead of creating a fixed setup of one computing unit with one Operating System containing a fixed set of Applications, we can now create one computing unit with a collection of Operating Systen / Applications combinations.
+
+For example, applied to schools, this can allow the teaching staff to create storage units for different educational needs. For example a disk for the mathematics class only containing mathematics applications. Or a Wikipedia disk that can be used in libraries and that only brings up one single application that allows offline browsing of all Wikipedia content. Or a games disk, to be used during breaks, that enables the same compute unit to be used for entertainment purposes but in a controlled way. 
+
+The possibilities are real endless. 
+
+### Redefining Personal Computing 
+ 
+
 
 
 
