@@ -632,6 +632,8 @@ defaults:
     values:
       layout: collection
       entries_layout: list # list (default), grid
+      sort_by: date # date (default) title
+      sort_order: forward # forward (default), reverse
       author_profile: false
       read_time: true
       comments: true

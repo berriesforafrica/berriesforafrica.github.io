@@ -2,6 +2,8 @@
 title: "Manjaro KDE Installation"
 excerpt: "Creating an SSD with Manjaro KDE"
 toc: true
+#order: 002
+#date: 2020-09-20
 ---
 
 ## Create an SSD with the Manajaro KDE Operating System 

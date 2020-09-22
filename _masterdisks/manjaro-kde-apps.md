@@ -1,5 +1,5 @@
 ---
-title: "Manjaro KDE - Apps"
+title: "Masterdisk: Manjaro KDE - Apps"
 excerpt: "Creating an SSD with Manjaro KDE and all KDE Applications"
 toc: true
 ---

@@ -29,6 +29,29 @@ $pi> sudo snap install kiwix-tools --edge
 $pi> kiwix-tools.kiwix-serve *.zim -p 8012
 ```
 
+
+
+[Install](/manjaro-kde/installing-apps) the `snapd` application. Do not select any of the proposed options.
+
+Restart the system.
+
+Start the Konsole app (`Application Launcher` -> `Applications` -> `System` -> `Konsole`).
+
+Execute the following command:
+
+```
+[pi@Manjaro ~]$ sudo snap install kiwix-tools --edge 
+```
+
+**Note:** The Snap system is an alternative way to install applications. Unfortunately, it is not very well supported on Manjaro. If you receive any errors during the execution of this command, try to re-execute the command or reboot the system. 
+
+```
+[pi@Manjaro ~]$ kiwix-tools.kiwix-serve *.zim -p 8012
+```
+
+
+
+
 Add an application menu entry for Kiwix Server:
 
 | Name | `Start Kiwix Sefver` |

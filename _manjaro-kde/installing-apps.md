@@ -1,6 +1,8 @@
 ---
 title: "Installing Apps in Manjaro KDE"
 excerpt: "General procedure to install apps in Manjaro KDE"
+#order: 003
+#date: 2020-09-21
 ---
 
 Take the following steps to install applications in Manjaro KDE:
