@@ -63,11 +63,20 @@ The possibilities are really endless.
 
 Again, the possibilities are endless. For example, in a school content, instead of taking along an expensive and bulky laptop, students can bring alone a small storage unit that they plug into a computer available in school or at home.
 
-### Easing installations using modular setups
+### Easing installations by cloning storage units
 
 - by creating a collection of suitable storage units, the process of installation is reduced to a simple disk clonging process
 - supported by SSD disk cloning devices
 
+### Modular setups
+
+- A computer is defined as a modular combination of a compute unit, a storage unit, a display, a sound unit, a power unitm, a keyboard and a mouse. 
+- Many advantages from defining a computer system as a modular combination of separate units:
+  - Support. Only replace part that is broken.
+  - Transport
+
+
+  
 
 
 
