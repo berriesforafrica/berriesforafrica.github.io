@@ -5,6 +5,7 @@ read_time: false
 comments: true
 share: true
 related: true
+classes: wide
 ---
 
 Computers are becoming more powerful, cheaper and smaller.
@@ -76,7 +77,7 @@ Again, the possibilities are endless. For example, in a school content, instead 
   - Transport
 
 
-  
+
 
 
 
