@@ -1,14 +1,59 @@
 ---
-title: "Masterdisk: Manjaro KDE - Apps"
-excerpt: "Creating an SSD with Manjaro KDE and all KDE Applications"
+title: "Masterdisk: RPI OS 32 Full Apps"
+excerpt: "Creating an SSD with a 32-bit Raspberry Pi OS and a full suite of Applications"
 toc: true
 ---
 
-## Install the Manajaro KDE Operating System on an SSD
 
-Follow the procedure in [Manjaro KDE Installation](/manjaro-kde/installing-manjaro-kde/) to install the Manajaro KDE Operating System on an SSD.
+
+## Install Raspberry Pi OS Full (32-bit) on an SSD
+
+Follow the procedure in [Raspbery Pi OS Full (32-bit) Installation](/rpios/installing-rpi-os-32-full/) to install the Raspberry Pi Operating System on an SSD.
 
 This default installation comes with the following apps pre-installed:
+
+```
+Programming
+└── Geany Programmer’s Editor
+└── Thonny Python IDE
+
+Internet
+└── Chromium Web Browser
+
+Sound & Video
+└── VLC Media Player
+
+Graphics
+└── Image Viewer
+
+Accessories
+└── Archiver
+└── Calculator
+└── File Manager
+└── PDF Viewer
+└── Raspberry Pi Diagnostics
+└── SD Card Copier
+└── Task Manager
+└── Terminal
+└── Text Editor
+
+Help
+└── Bookshelf
+└── Debian Reference
+└── Get Started
+└── Help
+└── Projects
+
+Preferences
+└── Add / Remove Software
+└── Appearance Settings
+└── Main Menu Editor
+└── Mouse and keyboard Settings
+└── Raspberry Pi Configuration
+└── Recommended Software
+└── Screen Configuration
+└── TeXdoctk
+```
 
 ```
 Development
@@ -83,24 +128,23 @@ Power / Session
 └── Shutdown
 ``` 
 
-As a reference, version 20.08 of the Manjaro KDE Operating System occupies about 10.1 GB of disk space. On a 120 GB SSD disk, this occupies about 9% of the available space (109.8 GB) and leaves 99.7 GB of disk space free.
+Free space: 96,2 (Total: 109,3)
 
-## Install the full KDE applications suite 
+As a reference, version 2020-08-20 of this OS occupies about 13.1 GB of disk space. On a 120 GB SSD disk, this leaves 96.2 GB of disk space free of the total of 109.3 GB available disk space. 
 
-Download and install the `kde-applications-meta` package which is a bundle that contains all applications developed by the KDE Community. 
+## Install the `kedeedu` applications suite 
 
-See [Installing Applications in Manjaro KDE](/manjaro-kde/installing-apps/) for more information on how to install applications. 
+Download and install the `kde-edu` package which is a bundle that contains all educative applications developed by the KDE Community. 
+
+See [Installing Applications in RPI OS](/rpios/installing-apps/) for more information on how to install applications. 
 {: .notice--warning}
 
-When asked to choose a provider for `cron`, select `cronie`.
+All educative KDE Apps will now be downloaded and installed. This can take some time. 
+
+Please note that this is a heavy download so make sure that you are connected to the Internet using a connection that can support large amounts of data.
 {: .notice--warning}
 
-All KDE Apps will now be downloaded and installed. This can take some time. 
-
-Please note that this is a heavy download of about 750 MB so make sure that you are connected to the Internet using a connection that can support such an amount of data.
-{: .notice--warning}
-
-After installation of the kde-applications-meta package, the following additional apps will be available:
+After installation of the `kdeedu` meta package, the following additional apps will be available:
 
 ```
 Development
@@ -290,7 +334,7 @@ On a 120 GB SSD disk, about 12% of the available space (109.7 GB) is now occupie
 
 Now add the following additional apps:
 
-See [Installing Applications in Manjaro KDE](/manjaro-kde/installing-apps/) for more information on how to install applications. 
+See [Installing Applications in Manjaro KDE](/manjaro-kde/03-installing-apps/) for more information on how to install applications. 
 {: .notice--warning}
 
 ```

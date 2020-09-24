@@ -4,6 +4,10 @@ excerpt: "Examples of Markdown content for use on this site"
 toc: true 
 ---
 
+## General Info on Markdown
+
+[Markdown Guide](https://www.markdownguide.org/)
+
 ## Emoji
 
 [Online Emoji Search](https://emojipedia.org/)
@@ -28,6 +32,8 @@ Automatic Picture Link : [Honk HK-5002 USB Speaker](/assets/pictures/honk-hk-500
 ## Tables
 
 [Online Generator](https://www.tablesgenerator.com/markdown_tables)
+
+[Online conversion from Excel](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/)
 
 ## Definitions
 
