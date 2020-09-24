@@ -83,14 +83,14 @@ locale                   : "en-GB"
 title                    : Home # "Power Berries"
 title_separator          : "-"
 subtitle                 : # "Powerful Computing using Raspberry Pi's" # "Creating a Performant Computer Infrastructure using Raspberry Pi's"
-name                     : "Koen Swings"
+name                     : # "Koen Swings"
 # description will appear in your document head meta (for Google search results) 
 # and in your feed.xml site description.
 description              : >- # this means to ignore newlines until the next field
   Creating a Performant Computer Infrastructure using Raspberry Pi's
 url                      : "https://berriesforafrica.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "koenswings/berriesforafrica.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : # "koenswings/berriesforafrica.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
