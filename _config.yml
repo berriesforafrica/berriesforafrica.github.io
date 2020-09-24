@@ -162,11 +162,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Koen Swings"
-  avatar           : "/assets/pictures/koenswings.jpg"
+  name             : "KSW"
+  avatar           : # "/assets/pictures/koenswings.jpg"
   bio              : 
-  location         : "Bornem, Belgium"
-  email            : "berriesforafrica@gmail.com"
+  location         : # "Bornem, Belgium"
+  email            : # "berriesforafrica@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
