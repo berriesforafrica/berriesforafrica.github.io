@@ -12,30 +12,24 @@ Computers are becoming more powerful, cheaper and smaller.
 
 To the point that even the smallest and cheapest devices now surpass the capabilities of most 5 year old computers.
 
-Making them extremely useful for creating a computer infrastructure that satifies the needs of many small businesses and educational institutions. 
+Making them extremely useful for creating a computer infrastructure that satifies the needs of many people, small businesses and educational institutions. 
 
-One of such small and cheap devices is the Raspberry Pi. Created to serve the needs of a growing community of DIY electronics enthousiasts, the Raspberry Pi has now evolved to such a point that - when applied in a suitable way - it can be a powerful cornerstone in the computer infastructure of many companies or institutions. 
+One of such small and cheap devices is the Raspberry Pi. Created to serve the needs of a growing community of DIY electronics enthousiasts, the Raspberry Pi has now evolved to such a point that - when applied in a suitable way - it can be a powerful building block in the creation of a suitable computer infastructure for users, companies or institutions. 
 
-Being widely available at low cost, small and easily transportable and resplaceable, we are convinced that the Raspberry Pi is an excellent platform for satisfying the computational needs of businesses and organisations that do not want to spend the majority of their budget on computers. Making them especially usefull in developing countries. 
+Being widely available at low cost, small and easily transportable and resplaceable, the Raspberry Pi is an excellent platform for satisfying the computational needs of users, businesses and organisations that do not want to spend the majority of their budget on computers. Making them also very usefull in developing countries. 
 
 And being a platform with low power requirements and requiring less material resources because of its small size, the Raspberry Pi is also a perfect platform for creating a computer infrastructure in an environment-friendly way.
 
-That is why we created the **Power Berries** project. The main mission of this project is to promote our approach to building Raspberry Pi-based conmputer infrastructures in a development-promotional and environment-friendly way. And to serve as a community platform for accumulating and sharing knowledge. 
+That is why we created the **Berries For Power** project. The main mission of this project is to document and promote the use of Raspberry Pi's to create computer infrastructure that contribute to development and that are environment-friendly. And to serve as a community platform for accumulating and sharing knowledge. 
 
 
 ### What is a Raspberry Pi?
 
+TODO - Overview
 
 ### Why Raspberry Pi's
 
-There are many advantages of using Raspberry Pi's:
-
-- They are small. Which means: easy to transport, less prone to fall damage
-- They are cheap. 
-- They are ARM-based. ARM processors are leading computers into the next decade
- 
-
-...
+TODO - summary of advantages
 
 ### Key factors to consider for a performant setup
 
@@ -45,7 +39,7 @@ There are many advantages of using Raspberry Pi's:
 
 ### Separating Storage from Computing (ALT: Storage-centric Computing)
 
-Taking profit of a setup using SSD drives that are connected externally to the main computer board, we also want to take another step forward in making the Raspberry Pi an efficient platform for developing countries and educational institutions. And that is to consider the storage as not being an integrated part of the computer, but to consider is as a separate component at the system level.
+Taking profit of a setup using SSD drives that are connected externally to the main computer board, we also want to take another step forward in making the Raspberry Pi an efficient platform for developing countries and educational institutions. And that is to consider the storage as not being an integrated part of the computer, but to consider it as a separate component at the system level.
 
 This allows us to define a computer system not as the integration of a compute unit (the CPU) with one fixed storage unit, but as a dynamic combination of a compute unit with several interchangeable storage units.
 
