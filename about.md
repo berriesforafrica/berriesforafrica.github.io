@@ -16,7 +16,7 @@ Making them extremely useful for creating a computer infrastructure that satifie
 
 One of such small and cheap devices is the Raspberry Pi. Created to serve the needs of a growing community of DIY electronics enthousiasts, the Raspberry Pi has now evolved to such a point that - when applied in a suitable way - it can be a powerful building block in the creation of a suitable computer infastructure for users, companies or institutions. 
 
-Being widely available at low cost, small and easily transportable and resplaceable, the Raspberry Pi is an excellent platform for satisfying the computational needs of users, businesses and organisations that do not want to spend the majority of their budget on computers. Making them also very usefull in developing countries. 
+Being widely available at low cost, small and easily transportable and replaceable, the Raspberry Pi is an excellent platform for satisfying the computational needs of users, businesses and organisations that do not want to spend the majority of their budget on computers. Making them also very usefull in developing countries. 
 
 And being a platform with low power requirements and requiring less material resources because of its small size, the Raspberry Pi is also a perfect platform for creating a computer infrastructure in an environment-friendly way.
 
